@@ -1,0 +1,82 @@
+@font-face{
+  font-family:Lato;
+  src:url('Lato-Thin.ttf');
+}
+body,html{
+  font-family: Lato;
+  color:black;
+  height:100%;
+  margin: 0px;
+}
+.image1{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;  
+  background-image: url("Ocean.jpeg") ;
+  min-height: 100%;
+ }
+#title{
+  position: absolute;
+  opacity:100%;
+}
+
+.navigation{
+  position: sticky;
+  top: -9px;
+  font-family:Lato;
+  src:url('Lato.ttf');
+} 
+.navigation ul,li,a{
+  display:inline;
+  text-decoration: none;
+  float:right;
+  padding-left: 10px;
+  color: white;
+}
+
+h1{
+	font-size:32px;
+	text-align: center;
+	z-index: 0;
+	opacity:0.5;
+	font-weight: bold;
+}
+
+#content{
+  background-color: white;
+  height: 1000px;
+  padding-top: 250px;
+  font-weight: bold;
+}
+
+h4{
+	font-weight: bold;
+}
+
+h3{
+  font-size:32px;
+  line-height: 75px;
+  position: center;
+  text-align: center;
+  font-weight: bold;
+
+}
+#robokids,#zwilling,#VEX{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+#footer{
+  padding-top: 50px;
+  height:auto;
+  background-color: #454547;
+  color: white;
+  width:100%;
+  bottom:0;
+  position:relative;
+  margin:auto;
+  padding:auto;
+}

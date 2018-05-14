@@ -1,0 +1,71 @@
+@font-face{
+  font-family:Lato;
+  src:url('Lato-Thin.ttf');
+}
+body,html{
+  font-family: Lato;
+  color:black;
+  height:100%;
+  margin: 0px;
+}
+.image1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;  
+  background-image: url("Building.jpeg") ;
+  min-height: 100%;
+}
+#title{
+  position: absolute;
+  opacity:100%;
+}
+
+.navigation{
+  position: sticky;
+  top: -9px;
+  font-family:Lato;
+  src:url('Lato.ttf');
+} 
+.navigation ul,li,a{
+  display:inline;
+  text-decoration: none;
+  float:right;
+  padding-left: 10px;
+  color: white;
+}
+
+h1{
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+	text-align: center;
+  color:white;
+  font-weight: bold;
+
+}
+
+h2{
+  font-size:32px;
+  line-height: 75px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 24px; 
+}
+
+h3,p{
+  font-weight: bold;
+}
+
+h5{
+  font-weight: bold;
+  text-align: center;
+}
+#arduino,#matlab,#c{
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}

@@ -1,0 +1,72 @@
+@font-face{
+  font-family:Lato;
+  src:url('Lato.ttf');
+}
+body,html{
+  font-family: Lato;
+  color:black;
+  height:100%;
+  margin: 0px;
+}
+.image1{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;  
+  background-image: url("testing.jpeg") ;
+  min-height: 100%;  
+}
+
+.navigation{
+  color:white;
+  position: sticky;
+  top: -9px;
+} 
+.navigation ul,li,a{
+  display:inline;
+  text-decoration: none;
+  float:right;
+  padding-left: 10px;
+  color: white;
+}
+#title{
+  margin:auto;
+  margin-top:180px;
+  position: absolute;
+  left:0; right:0;
+}
+
+#myPicture{
+    margin: auto;
+    position: absolute;
+    left: 0; right:0;
+}
+#bio{
+  background-color: white;
+  height: 1000px;
+  text-align: center;
+  font-size:20px;
+  margin:auto;
+  position: relative;
+  left:0px; right:0;
+}
+
+#bio,h3{
+  padding-top: 260px;
+}
+
+#footer{
+  padding-top: 50px;
+  height:auto;
+  background-color: #454547;
+  color: white;
+  width:100%;
+  bottom:0;
+  position:relative;
+  margin:auto;
+  padding:auto;
+}
+
+h4{
+  font-size:32px;
+}

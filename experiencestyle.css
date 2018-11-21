@@ -24,6 +24,7 @@ body,html{
 .navigation{
   position: sticky;
   top: -9px;
+  padding:0px;
   font-family:Lato;
   src:url('Lato.ttf');
 } 
@@ -33,6 +34,11 @@ body,html{
   float:right;
   padding-left: 10px;
   color: white;
+}
+
+a:hover{
+ color: #A7A7A7;
+ text-decoration: none;
 }
 
 h1{

@@ -18,17 +18,23 @@ body,html{
 }
 
 .navigation{
-  color:white;
   position: sticky;
   top: -9px;
+  padding:0px;
 } 
 .navigation ul,li,a{
+  color: white;
   display:inline;
   text-decoration: none;
   float:right;
   padding-left: 10px;
-  color: white;
 }
+
+a:hover{
+ color: #A7A7A7;
+ text-decoration: none;
+}
+
 #title{
   margin:auto;
   margin-top:180px;
